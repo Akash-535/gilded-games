@@ -37,7 +37,7 @@ const Header = () => {
                 onClick={closeHandler}
                 href={obj.link}
                 key={i}
-                className="text-white !whitespace-nowrap text-[22px] font-semibold max-xl:text-lg"
+                className="text-white !whitespace-nowrap text-[22px] font-semibold max-xl:text-lg hover:bg-gradient-to-r hover:from-light-purple hover:to-light-blue hover:bg-clip-text hover:text-transparent duration-300 ease-linear"
               >
                 {obj.title}
               </a>
