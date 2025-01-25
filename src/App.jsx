@@ -1,4 +1,5 @@
 import "./App.css";
+import BackToTop from "./common/BackToTop";
 import GildedGames from "./components/GildedGames";
 import Hero from "./components/Hero";
 import NftUtility from "./components/NftUtility";
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <NftUtility />
       <GildedGames />
+      <BackToTop />
     </>
   );
 }
